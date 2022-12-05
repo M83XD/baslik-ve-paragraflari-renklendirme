@@ -1,0 +1,21 @@
+body {
+    background-color: navy;
+    height: 300px;
+    border: 1px solid black;
+}
+p::first-line{
+    color: cadetblue;
+}
+p::before{
+    content: "*";
+    font-size: 44px;
+    color: rebeccapurple;
+}
+p::after{
+    content: "*";
+    font-size: 44px;
+    color: darkslateblue;
+}
+p::selection{
+    background-color: lightseagreen;
+}
